@@ -6,8 +6,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
-var menu = require('./routes/menu');
+var reservaciones = require('./routes/reservaciones');
+var calendario = require('./routes/calendario');
+var sobre_nosotros = require('./routes/sobre-nosotros');
+var Inicio = require('./routes/Inicio' );
 
 var app = express();
 
@@ -24,8 +26,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
-app.use('/menu', menu);
+app.use('/calendario', calendario);
+app.use('/reservaciones', reservaciones);
+app.use('/sobre-nosotros', sobre_nosotros);
+app.use('/Inicio', Inicio);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
