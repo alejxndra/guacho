@@ -1,30 +1,18 @@
 body {
-
-  font: 14px ;
-  font-family: lobster;
+  font-family: Lobster;
 }
 
+nav {
+  background-color: black;
+}
 
-
-
-
- #nav1 {
-   background-color: black;
+ .navbar{
    font-size: 60px;
    align-content: : center;
-
+   font-family:lobster;
  }
-.video{
 
-}
-
-#nav2{
-  background-color: white;
-  height: 180px;
-  ;
-}
-
-#guacho {
+#gaucho {
   color: black;
   font-size: 60px;
   position: center;
@@ -39,7 +27,8 @@ margin-top: 40px;
 text-align: center;
 text-shadow: black;
 }
-p{
+
+#inicio-explicacion{
 font-size:20px;
 text-align: center;
 font-family: arial;
@@ -51,9 +40,12 @@ letter-spacing: 0px;
 }
 
 h2{
-font-size: 60px;
-text-align: center;
+font-size: 40px;
+text-align: left;
+margin-left: 20px;
+margin-top:20px
 }
+
 #p{
   font-size:60px;
 
@@ -64,6 +56,10 @@ height: 500px;
 width: 100px;
 }
 
-#paladar {
-  text-align: left;
+div{
+  font-family: arial;
+  align-items:left;
+  align-left: 50px;
+  margin-left: 20px;
+
 }

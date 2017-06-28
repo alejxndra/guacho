@@ -9,7 +9,6 @@ var index = require('./routes/index');
 var reservaciones = require('./routes/reservaciones');
 var calendario = require('./routes/calendario');
 var sobre_nosotros = require('./routes/sobre-nosotros');
-var Inicio = require('./routes/Inicio' );
 
 var app = express();
 
@@ -29,7 +28,6 @@ app.use('/', index);
 app.use('/calendario', calendario);
 app.use('/reservaciones', reservaciones);
 app.use('/sobre-nosotros', sobre_nosotros);
-app.use('/Inicio', Inicio);
 
 
 // catch 404 and forward to error handler
