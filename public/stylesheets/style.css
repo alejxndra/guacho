@@ -1,9 +1,13 @@
 body {
   font-family: Lobster;
+  text-opacity: 0.3;
+  color: grey;
 }
 
 nav {
   background-color: black;
+  letter-spacing: 1.5px;
+  word-spacing: 10px;
 }
 
  .navbar{
@@ -40,12 +44,15 @@ letter-spacing: 0px;
 
 
 }
-
+#h22{
+  color: black;
+}
 h2{
 font-size: 40px;
 text-align: left;
 margin-left: 20px;
-margin-top:20px
+margin-top:20px;
+font-family: lobster;
 }
 
 #p{
@@ -60,13 +67,70 @@ width: 100px;
 
 div{
   font-family: arial;
-  align-items:left;
   align-left: 50px;
-  margin-left: 50px;
+  margin-left: px;
   font-size: 20px
 
 }
 
-#reserva-online{
+hr {
+	color: #8c8b8b;
+	font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.latest_news_block {
+    background-color:#fff59d;
+    padding: 40px 0;
+
+}
+h3{
+  font-family: lobster;
   text-align: center;
+  color: black;
+
+}
+
+
+}
+#div2{
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 50px;
+width: 100px;
+
+
+
+}
+#pr{
+  text-align: center;
+
+}
+
+#boton{
+  font-size: 24px;
+  width: 25%;
+  align-button:center;
+  background-color: white;
+  color:black;
+  font-family:inherit;
+
+}
+#reservaciones-body{
+
+background-image: image();
+}
+#footer{
+  width: px;
+  height:100px;
+  background-color: black;
+
+}
+h5{
+  font-size: 20px;
+}
+#h1cal{
+font-family:arial;
+font-size:
+color: grey;
 }
