@@ -6,13 +6,17 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="javascript" href="javascript/jquery" />
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <title> guachos.inc </title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascript/jquery.js"></script>
+
   </head>
 
   <body>
@@ -20,15 +24,48 @@
     <nav>
       <ul class="navbar" class="left hide-on-med-and-down">
         <li><a href="/">Inicio</a></li>
-        <li><a href="/reservaciones">Reservaciones</a></li>
-        <li><a href="/calendario">Calendario</a></li>
-        <li><a href="/sobre-nosotros">Sobre Nosotros</a></li>
+
+        <li><a href="/calendario">Eventos</a></li>
+        <li><a href="/sobre-nosotros">Quienes somos?</a></li>
      </ul>
     </nav>
     <div class="brand-logo center" id="gaucho"> Gaucho Nights</div>
 
+    <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://www.foodiesusa.com/shop/images/BT1H8697A1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lucre.co.uk/iandi/wp-content/uploads/sites/2/2017/04/Foodies-Ali-Gwynne.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://cf.bojongourmet.com/wp-content/uploads/2016/05/Spicy-Tomato-Chickpea-Pasta-gluten-free-vegan-option-7.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://www.goya.com/media/5257/carne-asada_mexican-grilled-steak_updated.jpg?quality=80?width=470"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+    </div>
 
-</div>
+
+
 <br>
 <br>
 <h1>La formula de un sabor especial</h1>
@@ -40,16 +77,14 @@
 <h2 id="h22">A entrenar el paladar!</h2>
 
 <div class="row">
-  <div class="col s4">
-
+  <div class="col s4 m4">
     <p>
-      Para que viajar? Mejor atrevete a extender tu paladar aqui con Gaucho Nights.
+      Extiende tu paladar aqui con Gaucho Nights.
       Cada mes traeremos la gastronomia de una cultura diferente. Que te parece la comida
       Argentina o Italiana, hasta incluso la Francesa. Gaucho Nights te facilitara probar estas culturas y mucho mas.
     </p>
-
-<div class="col s8" 
-  <img id="imagen"src= alt="">
+  <div class="col s8 m8">
+    <img id="imagen" src="" alt="">
   </div>
 
 </div>
@@ -64,8 +99,8 @@
 		</div>
 		<div class="post-item-separator"></div>
 		<div class="latest_news_date">
-		<p id="pr">Reserva online tu espacio siendo de los primeros en deleitar al magia de Gaucho Nights.<p></div>
-      <a id="boton"class="waves-effect waves-light btn-large">Reservaciones</a>
+		<p id="pr">Ven y comparte en familia<p></div>
+      <a id="boton"class="waves-effect waves-light btn-large">Proximo Gaucho Nights</a>
 	</div>
   <br>
   <br>
@@ -87,10 +122,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="footer-copyright">
-                  <div class="container"
-                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-                  </div>
+                <di>
                 </div>
               </footer>
 

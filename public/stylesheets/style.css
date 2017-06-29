@@ -26,6 +26,10 @@ nav {
 
 }
 
+.slider {
+  height: 450px;
+}
+
 h1 {
   color: black;
   font-size: 60px;
@@ -85,10 +89,16 @@ hr {
 
 }
 h3{
-  font-family: lobster;
+  font-family: arial;
   text-align: center;
   color: black;
 
+}
+
+#calendarFont{
+font-family: 'Source Sans-Pro', sans-serif;
+font-weight: lighter;
+font-size: 30px;
 }
 
 
@@ -131,6 +141,26 @@ h5{
 }
 #h1cal{
 font-family:arial;
-font-size:
+font-size:30px;
 color: grey;
+}
+
+#tabla{
+  color: black;
+font-family: arial;
+}
+#top{
+  font-family: lobstar
+}
+
+#boton {
+  margin-left: 468px;
+}
+#comosurgio{
+  text-align: center;
+}
+#jovenes{
+  text-align: center;
+  margin-left: 220px;
+  margin-right: px;
 }
