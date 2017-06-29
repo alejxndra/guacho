@@ -19,32 +19,41 @@
         <li><a href="/sobre-nosotros">Sobre Nosotros</a></li>
      </ul>
     </nav>
-    <div class="brand-logo center" id="gaucho"> Gaucho Nights</div>
 
-    <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s6">
-              <input  id="first_name" type="text" class="validate">
-              <label for="first_name">First Name</label>
-            </div>
-            <div class="input-field col s6">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Last Name</label>
-            </div>
 
-            <div class="input-field col s6">
-          <i class="material-icons prefix"></i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Telephone</label>
+      <div class="row">
+          <form class="col s12">
+              <div class="input-field col s6" id="line">
+                <i class="material-icons prefix"><img src="https://www.materialui.co/materialIcons/action/account_circle_black_180x180.png" alt="" id="pf"></i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix" id="name">Nombre y Apellido</label>
+              </div>
+              <div class="input-field col s6" id="line">
+                <i class="material-icons prefix"><img src="https://image.flaticon.com/icons/svg/34/34067.svg" alt="" id="cel"></i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone" id="celular">Numero de Telefono</label>
+              </div>
+            </div>
+          </form>
         </div>
-      </div>
-    </form>
-  </div>
 
-<input type="date" class="datepicker">
 
-<input type="date" class="timepicker">
+      <div class="row">
+       <divs class="col s12">
+         <div class="input-field col s6" id="line1">
+             <i class="material-icons prefix"><img src="https://cdn4.iconfinder.com/data/icons/miu/24/circle_social-email-glyph-512.png" alt="" id="mail"></i>
+           <input id="email" type="email" class="validate">
+           <label for="email" data-error="wrong" data-success="right" id="correo">Email</label>
+         </div>
+
+
+ <select class="browser-default">
+   <option value="" disabled selected>Cantidad de Personas</option>
+   <option value="1">1-4</option>
+   <option value="2">5-8</option>
+   <option value="3">9+</option>
+ </select>
+
 
 </body>
 </html>
