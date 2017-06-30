@@ -2,6 +2,7 @@ body {
   font-family: Lobster;
   text-opacity: 0.3;
   color: grey;
+  background-image:
 }
 
 nav {
@@ -24,10 +25,6 @@ nav {
   margin-bottom: 30px;
   font-family:lobster;
 
-}
-
-.slider {
-  height: 450px;
 }
 
 h1 {
@@ -108,6 +105,7 @@ margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 50px;
 width: 100px;
+box-sizing: 100px;
 
 
 
@@ -123,7 +121,7 @@ width: 100px;
   align-button:center;
   background-color: white;
   color:black;
-  font-family:inherit;
+  font-family:arial;
 
 }
 #reservaciones-body{
@@ -212,4 +210,57 @@ font-family: arial;
 
 select {
   margin-top: -10px;
+}
+
+/* Index page Hero Image Layout */
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("../images/bbq_nights.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#foodiegrid{
+  margin-left:;
+  margin-right: ;
+  margin-bottom: ;
+  margin-top: ;
+}
+#imagen{
+  margin-left: 500px;
+}
+#correo{
+  align-content: center;
+}
+#contactanos1{
+  font-family: 'Source Sans-Pro', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 40px;
+}
+#pcontactanos{
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
 }
