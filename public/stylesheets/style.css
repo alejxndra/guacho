@@ -117,13 +117,12 @@ box-sizing: 100px;
 
 #boton{
   font-size: 24px;
-  width: 25%;
   align-button:center;
   background-color: white;
   color:black;
   font-family:arial;
-
 }
+
 #reservaciones-body{
 
 background-image: image();
@@ -188,9 +187,7 @@ font-family: arial;
   margin-left: -10px;
 }
 
-#line {
-  margin-top: 250px;
-}
+
 
 #line1 {
   margin-top: 60px;
